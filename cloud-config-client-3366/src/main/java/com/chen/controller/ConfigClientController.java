@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ConfigClientController {
-
     //name是config-dev.yml文件中的name
     @Value("${name}")
     private String configInfo;
