@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b803a115-5632-442b-b1cd-51090b4b9e0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/chen/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/chen/controller/ConfigClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.69655174" />
@@ -64,8 +62,11 @@
       <recent name="com.chen.service.impl" />
       <recent name="com.chen.service" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022\idea_project\cloud2022\cloud-stream-rabbitmq-consumer8803\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudConfigClient3355Application">
+  <component name="RunManager" selected="Spring Boot.CloudStreamRabbitmqConsumer8803Application">
     <configuration name="CloudConfigCenter3344Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center-3344" />
       <extension name="coverage">
@@ -88,6 +89,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudConfigClient3355Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConfigClient3366Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudConfigClient3366Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,27 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudGateway9527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-gateway-gateway9527" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudGateway9527Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloudProviderHystrixPayment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CloudProviderHystrixPayment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudProviderHystrixPayment8001Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,13 +176,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CloudStreamRabbitmqConsumer8802Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudStreamRabbitmqConsumer8802Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamRabbitmqConsumer8803Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudStreamRabbitmqConsumer8803Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamRabbitmqProvider8801Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.CloudStreamRabbitmqProvider8801Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CloudStreamRabbitmqConsumer8803Application" />
+        <item itemvalue="Spring Boot.CloudStreamRabbitmqProvider8801Application" />
+        <item itemvalue="Spring Boot.CloudEurekaServer7001Application" />
         <item itemvalue="Spring Boot.CloudConfigClient3355Application" />
         <item itemvalue="Spring Boot.CloudConfigCenter3344Application" />
-        <item itemvalue="Spring Boot.CloudEurekaServer7001Application" />
-        <item itemvalue="Spring Boot.CloudGateway9527Application" />
-        <item itemvalue="Spring Boot.CloudProviderHystrixPayment8001Application" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +233,7 @@
       <workItem from="1657105505585" duration="7509000" />
       <workItem from="1657166683149" duration="43496000" />
       <workItem from="1657534385877" duration="6210000" />
-      <workItem from="1657615292651" duration="4186000" />
+      <workItem from="1657615292651" duration="6807000" />
     </task>
     <servers />
   </component>
@@ -223,65 +245,65 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1657172986749" />
-    <state x="740" y="189" key="#com.intellij.ide.util.MemberChooser" timestamp="1657540040166">
+    <state x="740" y="189" key="#com.intellij.ide.util.MemberChooser" timestamp="1657640409544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="740" y="189" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1657540040166" />
-    <state x="572" y="170" key="FileChooserDialogImpl" timestamp="1657387948028">
+    <state x="740" y="189" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1657640409544" />
+    <state x="572" y="170" key="FileChooserDialogImpl" timestamp="1657641294722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1657387948028" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1657624399087">
+    <state x="572" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1657641294722" />
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1657624399087">
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1657624399077">
+    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657624399077" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1657624399087">
+    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state width="1493" height="271" key="GridCell.Tab.1.bottom" timestamp="1657624399087">
+    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.1.bottom" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state width="1493" height="271" key="GridCell.Tab.1.center" timestamp="1657624399087">
+    <state width="1493" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.1.center" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state width="1493" height="271" key="GridCell.Tab.1.left" timestamp="1657624399087">
+    <state width="1493" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.1.left" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state width="1493" height="271" key="GridCell.Tab.1.right" timestamp="1657624399087">
+    <state width="1493" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state width="1493" height="151" key="GridCell.Tab.1.right" timestamp="1657641856239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1657624399087" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1657539364730">
+    <state width="1493" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1657641856239" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1657641301773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1657539364730" />
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1657641301773" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1657615292530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1657615292530" />
-    <state x="266" y="176" key="new project wizard" timestamp="1657615517901">
+    <state x="356" y="233" key="new project wizard" timestamp="1657641080539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="176" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1657615517901" />
+    <state x="356" y="233" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1657641080539" />
     <state x="682" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1657411180227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="682" y="258" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1657411180227" />
-    <state x="472" y="104" key="spring file set editor" timestamp="1657387951820">
+    <state x="472" y="104" key="spring file set editor" timestamp="1657641296481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="472" y="104" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1657387951820" />
+    <state x="472" y="104" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1657641296481" />
   </component>
 </project>
